@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Providers</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Informatics In Context</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="solutions.html" class="nav-link">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="providers.html" class="nav-link active">Providers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="payers.html" class="nav-link">Payers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- summary Sections -->
+    <section id="summary" class="p-5">
+        <div class="container">
+            <h2 class="mb-4">Automated Real-time Prior Authorization, Referral, and Eligibility</h2>
+            <p class="lead">
+                IIC’s ‘Digital Physician Assistant’ web portal (or integrated web service) offers provider organizations a single point of entry (single sign on) to check patient eligibility and benefits (EDI 270), and send referrals and prior authorizations (PA) via EDI 278 to all payers within the provider’s network. IIC’s software agnostic all-in-one solution fully complies with the EDI 278 real-time standard for PA. IIC’s value proposition is focused exclusively on the elimination of clerical work to manually complete and fax forms, or require follow up phone calls. Submitting PAs and sending electronic documents offers the same user workflow experience for all PA payer requests. Prior to submission, all PAs are reconciled against payer-specific policy guidelines to ensure compliance and reduce the possibility of denials.
+            </p>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h5>Prior Authorization process is comprised of 3 distinct steps:</h5>                    
+                    <ul class="lead">
+                        <li><span class="fw-bold">Eligibility: </span>Is the insurance coverage active, what is the co-pay, co-insurance, etc.</li>
+                        <li><span class="fw-bold">Referral Certification: </span> Obtaining payer approval to refer a patient to a specialist</li>
+                        <li><span class="fw-bold">Prior Authorization: </span>Obtaining payer approval for medical procedures, tests, labs, equipment (DME), pharmaceuticals, hospital admissions and extensions, and expensive drugs covered under medical benefits</li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <img src="img/provider_portal.JPG" alt="" class="img-fluid">
+                </div>
+            </div>
+            <p class="lead">
+                Outpatient procedures, inpatient admits, stay extensions, DME, tests, labs, drugs, etc. are approved or denied based on the payer policy guidelines (medical necessity and/or appropriate use criteria).
+            </p>
+            <p class="lead">
+                <span class="fw-bold">Problem:</span> Each payer (thousands) has their own policy guidelines per procedure (thousands) which can change every 45-60 days. The lack of automation and real-time responses causes delays in approvals, higher rates of denials, requires administrative and clinical staff (FTE’s), and delays patient treatment and outcomes. Requests are based on proprietary and non-standard workflows, which differ payer to payer. Providers know from first-hand experience the pain and frustration of 30-60 minute wait times on hold when calling the payer’s call center for questions or follow up PA status.
+            </p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <h2 class="py-3">Benefits</h2>
+                <ul class="lead">
+                    <li>Significantly simplifies administrative processing, reduces unnecessary delays, loweringcosts by an order of magnitude.</li>
+                    <li>Software-agnostic solution based on EDI 278, the electronic standard for priorauthorization.</li>
+                    <li>Provider portal (or integrated web service) is easy to use, promoting high utilizationwhile reducing unnecessary delays and call volumes by integrating the patient eligibilityfunction with an electronic prior authorization request.</li>
+                    <li>Prior to submission, requests are reconciled against payer policies, ensuring compliance,reducing possibility of denials, appeals, medical reviews, and increasing patient outcomes.<li>
+                    <li>Integrated eligibility functionality and prior authorization submissions combined in asingle transaction and workflow</li>
+                    <li>Single point of access to submit all prior authorizations (procedures, tests, labs, DME,inpatient stays, stay extensions, etc.) and check patient eligibility in real-time for allpayers in provider’s network</li>
+                </ul>
+                <p class="lead">
+                    IIC’s provider-friendly workflow is designed to be intuitive and efficient. Pre-populated selection fields provide users the most efficient way to submit requests to payers in the shortest amount of time, with the fewest possible clicks.
+                </p>
+        </div>
+    </section>
+
+    <!-- Web portal -->
+    <section  class="p-5">
+        <div class="container">
+            <h2 class="py-3">Web Portal Features</h2>
+                <ul class="lead">
+                    <li>Cloud-based provider portal consolidates all payers’ clinical requirements needed to automatically check patient eligibility, send referrals, and submit prior authorization requests.</li>
+                    <li>Real-time EDI 278 solution allows providers to submit all prior authorization requests to all payers in their network – a single point of entry with a single sign on.</li>
+                    <li>Prior authorization requests are first reconciled against payer-specific and procedure-specific policy guidelines to ensure compliance and reduce denials</li>
+                    <li>Can be used as a stand-alone product or integrated as a RESTful web service into any EMR or practice management system.</li>
+                    <li>Real-time shared view of all transactions between referral physician and referred-to physician</li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Provider Summary -->
+    <section class="bg-dark text-center text-light p-5">
+        <div class="container">
+            <h1 class="mb-3 mb-md-0">Provider Summary</h1>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <h3 class="py-3">BENEFITS OF PRIOR AUTHORIZATION</h3>
+                <ol class="lead">
+                    <li>Prior authorization is the closest assurance providers receive from payers guaranteeing payment for treatment.</li>
+                    <li>When the process is automated and real-time, prior authorization can reduce post-service denials, re-submissions, medical reviews, physician and clinical staff time, and patient rescheduling, and in turn improve patient satisfaction scores.</li>
+                </ol>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <h3 class="py-3">BARRIERS TO EXPANDING PRIOR AUTHORIZATION</h3>
+                <ol class="lead">
+                    <li>Lack of automation and real-time responses causes delays in approvals, higher rate of denials, requires administrative and clinical FTEs, and delays patient treatment and outcomes.</li>
+                    <li>Requests are based on proprietary and non-standard workflows, which differ payer to payer.</li>
+                    <li>Resistance to expanding prior authorization because of its manual and proprietary nature.</li>
+                    <li>Frustration and Pain: 30-50 minutes wait time on hold when calling the payer’s call center.</li>
+                </ol>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <h3 class="py-3">INFORMATICS IN CONTEXT’S VALUE PROPOSITION FOR PROVIDERS</h3>
+                <ol class="lead">
+                    <li>Significantly simplifies administrative processing, reduces unnecessary delays, lowering costs by an order of magnitude.</li>
+                    <li>Software-agnostic solution based on EDI 278, the electronic standard for prior authorization.</li>
+                    <li>Uniformity and standardization of workflow within a multi-payer offering.</li>
+                    <li>Provider portal (or integrated web service) is easy to use, promoting high utilization while reducing unnecessary delays and call volumes by integrating the patient eligibility function with an electronic prior authorization request.</li>
+                    <li>Prior to submission, requests are reconciled against payer policies, ensuring compliance, reducing possibility of denials, appeals, medical reviews, and increasing patient outcomes.</li>
+                    <li>Advanced analytic triggers can be applied to payer payment patterns, physician referral patterns, real-time calculation of incurred costs, and more.</li>
+                    <li>Redirect limited resources to other care management functions without increasing budget.</li>
+                    <li>Patient procedure approval and payment transparency at the point of care. If the provider receives automatic treatment approval, patient can be scheduled and informed the co-payment amount.</li>
+                </ol>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-center text-white position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; Informatics In Context 2021. All rights reserved.</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jpc2huYXM2Nzk1IiwiYSI6ImNrc3Q0ejkwZDAwcjQydXFzd2l0dzk1Y2wifQ.mZKoh5txFiyjsRfiqflgTg';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-71.05842869781456, 42.358574898735206],
+    zoom: 18,
+    });
+    </script>
+</body>
+</html>

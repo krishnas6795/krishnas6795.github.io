@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Informatics In Context</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Informatics In Context</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="solutions.html" class="nav-link">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="providers.html" class="nav-link">Providers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="payers.html" class="nav-link">Payers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Informatics In Context <span class="text-primary">i</span><span class="text-success">[</span><span class="text-danger">ic</span><span class="text-success">]</span></h1>
+                    <p class="lead my-4 text-danger">
+                        Bridging the Digital Divide
+                    </p>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- summary Sections -->
+    <section id="summary" class="p-5">
+        <div class="container">
+            <h2>Real-Time Automated Prior Authorization via EDI 278</h2>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h4>For Health Plans and Providers</h4>
+                    <p class="lead">
+                        Informatics In Context’s (IIC) offers payers a transformative standards-based solution which fully automates their prior authorization (PA) process in real-time based on the ACA mandated EDI 278 standard for medical procedures, tests, labs, and drugs covered under medical benefits.
+                    </p>
+                    <p class="lead">
+                        IIC’s 278 Authorization Engine fully automates the payer’s PA process, as the vast majority of responses will not require human intervention. IIC is able to achieve a high level of touchless adjudication by automating all of the payer’s policies and guidelines, including all business and clinical rules required for real-time responses. Requests for documentation, attachments, and/or questions are handled electronically using the EDI 275 daughter transaction.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img src="img/value_proposition.JPG" alt="" class="img-fluid">
+                </div>
+            </div>
+            <p class="lead">
+                As described in the value proposition diagram, the ACS X12 V5010 standard enabled payers to process claims and eligibility transactions electronically in real-time. Today’s payer PA process is either manual or semi-automated if processed by 3rd parties, but in either case it’s a proprietary process, and not real-time. By realizing the full potential of the EDI 278 standard, a completely automated, real-time authorization process is now possible, one that can fundamentally transform utilization management itself.
+            </p>
+            <p class="lead">
+                Using IIC’s cloud-based technology, payers can immediately approve submissions that meet their established payment policies and care criteria, with no need for further review, or pend those that require manual review. Automating the PA process using the EDI industry 278 standard enables payers to realize an order of magnitude in time and cost savings per transaction, provides instantaneous actionable responses to providers, and allows payers to expand PA review to the higher volume, lower cost procedures without provider objection.
+            </p>
+        </div>
+    </section>
+
+    <section id="summary" class="p-5">
+        <div class="container">
+            <h2>278 Authorization Engine Architecture</h2>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <p class="lead">
+                        IIC’s 278 Authorization Engine enables payers to respond in real-time to the vast majority of authorization requests without human intervention, by automating all of the payer’s clinical guidelines (appropriate use criteria) used to approve or pend requests whether it be Medicare, Medicaid, MCG, InterQual, or custom guidelines. Guideline rules are editable by the payer as guidelines change or require updating.
+                    </p>
+                    <p class="lead">
+                        IIC’s 278 authorization engine allows scalable utilization management and real-time adjudication based on a fully automated process. It accepts all 270/278/275 requests from any portal or system that can send 278 standard transactions.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img src="img/278_architecture.JPG" alt="" class="img-fluid">
+                </div>
+            </div>
+            <p class="lead">
+                After the PA request is processed, patient data is auto populated back into the payer’s system. There are integration points where the payer has to option to pend specific types of authorizations or requests from a specific provider for manual adjudication. Each transaction has ready access to the full history for the payer to view.
+            </p>
+            <p class="lead">
+                IIC’s 278 authorization engine can be integrated into any system with a well-defined API. It enables the electronic exchange of questions, requests, and documents between payer and provider using EDI 275 transaction. The goal is to eliminate all paper, fax, and phone call volumes by implementing a fully electronic authorization process.
+            </p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+                    <h2 class="py-3">Benefits of IIC’s PA Solution</h2>
+                    <ol class="lead">
+                        <li>Standards-based real-time EDI 278 PA solution makes transactions useful, not simply compliant</li>
+                        <li>Fully automated adjudication for vast majority of requests without human intervention</li>
+                        <li>Automate all clinical guidelines (CMS, MCG, InterQual, custom) including business and clinical logic</li>
+                        <li>Order of magnitude of time and cost savings achieved by maximizing automation and efficiency</li>
+                        <li>Uniform clinical workflow can be implemented for providers within the payers’ network</li>
+                        <li>Guidelines are editable by payer when updates or changes are needed</li>
+                        <li>278 Authorization Engine is configurable and customizable to meet all the payer’s payment criteria</li>
+                        <li>Reduction in number of denials, appeals, medical review, and re-adjudication of claims</li>
+                        <li>Providers receive instant, actionable responses, so that patient rescheduling and treatment can happen same day</li>
+                        <li>Process promotes high utilization, helping providers comply with evidence-based guidelines</li>
+                        <li>Lowers cost of overhead, administrative staff, complexity, and time dealing with authorizations</li>
+                        <li>Reduces or eliminates provider need for manual processing, inquiry, and continuous follow up</li>
+                        <li>Completely configurable and customizable solution</li>
+                    </ol>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- Box 1 -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-5">Payers</h3>
+                            <p class="card-text">
+                                Automating the PA process in real-time enables payers to respond instantly to provider requests for prior authorization, based on the payer’s payment policies, business rules, and clinical care guidelines. A fully automated PA adjudication process is the only effective way to ensure that plan assets are protected from over-utilization, duplicative and-or unnecessary care, and fraud, waste and abuse. By automating the PA process based on the payer’s own policies and clinical guidelines, IIC’s solution delivers cost-savings and value for the plan, high quality care for the patients, and clinically appropriate service delivery by the plan’s participating providers.
+                            </p>
+                            <a href="payers.html" class="btn btn-primary mt-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-5">Providers</h3>
+                            <p class="card-text">
+                                IIC’s provider portal or integrated web service is a single point of entry to all payers in the providers network to check eligibility (270), submit referrals and prior authorization requests in real-time (278) using single sign on, without needing to login into individual payer sites each time. IIC’s solution reduces PA submission time and cost per transaction by an order of magnitude, reduces administrative burden, eliminates unnecessary delays, and significantly lowers costs. It offers uniformity and standardization of workflow to all payers based on using the EDI 278 standard. Automating the PA process promotes high utilization while reducing or eliminating the manual process of paper, phone, and fax. IIC’s provider solution can be integrated as a RESTful web service into any system (e.g. EMR or practice management system) or used stand-alone.
+                            </p>
+                            <a href="providers.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-center text-white position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; Informatics In Context 2021. All rights reserved.</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jpc2huYXM2Nzk1IiwiYSI6ImNrc3Q0ejkwZDAwcjQydXFzd2l0dzk1Y2wifQ.mZKoh5txFiyjsRfiqflgTg';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-71.05842869781456, 42.358574898735206],
+    zoom: 18,
+    });
+    </script>
+</body>
+</html>
